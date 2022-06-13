@@ -37,13 +37,13 @@ const MENU_ITEMS = [
           type: 'language',
           code: 'vi',
           title: 'Tiếng Việt',
-          // children: {
-          //   title: 'Language',
-          //   data: [
-          //     { code: 'en', title: 'English2222' },
-          //     { code: 'vi', title: 'Tiếng Việt2222' },
-          //   ],
-          // },
+          children: {
+            title: 'Language 2',
+            data: [
+              { code: 'en', title: 'English2222' },
+              { code: 'vi', title: 'Tiếng Việt2222' },
+            ],
+          },
         },
         { type: 'language', code: 'en', title: 'English' },
         { type: 'language', code: 'en', title: 'English' },
